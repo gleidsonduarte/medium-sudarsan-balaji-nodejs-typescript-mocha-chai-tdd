@@ -1,0 +1,20 @@
+{
+  "name": "medium-sudarsan-balaji-nodejs-typescript-mocha-chai-tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GleidsonDuarte/medium-sudarsan-balaji-nodejs-typescript-mocha-chai-tdd.git",
+  "author": "GleidsonDuarte <work.gleidsonduarte@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.8",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^13.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
